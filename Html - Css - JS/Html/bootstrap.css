@@ -1,0 +1,29 @@
+/* <!--nth-child para adicionar algo a números pares -->
+.col:nth-child(2n){
+            background-color:red;
+        }
+        <!-- Para adicionar números impares -->
+.col:nth-child(2n + 1){
+            background-color:blue;
+        }
+.navbar-brand{
+            color: rgb(189, 140, 189);
+            font-size: xx-large;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+        }
+.navbar-nav{
+            
+            font-size: xx-large;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+.bi-star-fill{
+            color: rgb(233, 211, 43);
+        } */
+.banner {
+    height: 315px;
+}
+.bi-star-fill{
+    color: rgb(233, 211, 43);
+}

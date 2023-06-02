@@ -8,34 +8,7 @@
     <title>Bootstrap Sample</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <style>
-        /* <!--nth-child para adicionar algo a números pares -->
-        .col:nth-child(2n){
-            background-color:red;
-        }
-        <!-- Para adicionar números impares -->
-        .col:nth-child(2n + 1){
-            background-color:blue;
-        }
-        */
-
-        /* .navbar-brand{
-            color: rgb(189, 140, 189);
-            font-size: xx-large;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-weight: bolder;
-        }
-        .navbar-nav{
-            
-            font-size: xx-large;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        } */
-
-        .bi-star-fill{
-            color: rgb(233, 211, 43);
-        }
-    </style>
-
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 
 <body>
@@ -58,16 +31,55 @@
                 </ul>     
             </div>
     </nav>
-        
-    <header class="bg-dark py-5 d-flex flex-column align-items-center">
-        <div class="text-white text-center w-50 mb-2">
-            <h1>Lorem ipsum dolor</h1>
-            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab incidunt harum impedit nobis eligendi dolore, officiis at neque laborum voluptate quaerat nemo, ipsam, facere odio facilis in laudantium sapiente.</p>
-        </div>
-        <div>
-            <button class="btn btn-primary me-md-4">Concordar</button>
-            <button class="btn btn-outline-light">Discordar</button>
-        </div>
+    <header id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                <div class="text-white text-center w-50 mb-2">
+                    <h1>Lorem ipsum dolor</h1>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary me-md-4">Concordar</button>
+                    <button class="btn btn-outline-light">Discordar</button>
+                </div>
+            </div>
+            </div>
+          <div class="carousel-item">
+            <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                <div class="text-white text-center w-50 mb-2">
+                    <h1>Lorem ipsum dolor</h1>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab incidunt harum impedit nobis eligendi dolore, officiis at neque laborum voluptate quaerat nemo, ipsam, facere odio facilis in laudantium sapiente.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary me-md-4">Concordar</button>
+                    <button class="btn btn-outline-light">Discordar</button>
+                </div>
+          </div>
+            </div>
+          <div class="carousel-item">
+            <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                <div class="text-white text-center w-50 mb-2">
+                    <h1>Lorem ipsum dolor</h1>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ab incidunt harum impedit nobis eligendi dolore.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary me-md-4">Concordar</button>
+                    <button class="btn btn-outline-light">Discordar</button>
+                </div>
+          </div>
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </header>
         
     <main class="container-lg py-3">
@@ -78,8 +90,8 @@
                     <h3 class="card-title small text-muted fw-bold">
                         <b>GRÁTIS</b>
                         </h3>
-                    <p class="card-text fw-bolder display-1">
-                        R$0
+                    <p class="card-text display-1">
+                        <strong>R$0</strong>
                         <spam class="fw-lighter text-muted fs-5">/mês</spam>
                         </p>
                         <ul class="list-unstyled">
@@ -145,8 +157,8 @@
                     <h3 class="card-title small  fw-bold">
                         <b><i class="bi bi-star-fill "></i> PRO</b>
                         </h3>
-                    <p class="card-text fw-bolder display-1">
-                        R$0
+                    <p class="card-text  display-1">
+                        <strong>R$0</strong>
                         <spam class="fw-lighter text-muted fs-5">/mês</spam>
                         </p>
                         <ul class="list-unstyled">
@@ -193,10 +205,10 @@
                 <div class="card py-4 px-2">
                     <div class="card-body">
                     <h3 class="card-title small text-muted fw-bold">
-                        <b>GRÁTIS</b>
+                        <b>EMPRESARIAL</b>
                         </h3>
-                    <p class="card-text fw-bolder display-1">
-                        R$0
+                    <p class="card-text  display-1">
+                        <strong>R$0</strong>
                         <spam class="fw-lighter text-muted fs-5">/mês</spam>
                         </p>
                         <ul class="list-unstyled">
